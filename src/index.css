@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-reaction:hsl(0, 100%, 67%);
+    --color-memory: hsl(39, 100%, 56%);
+    --color-verbal: hsl(166, 100%, 37%);
+    --color-visual: hsl(234, 85%,45%);
+    --bg-reaction:hsl(0, 100%, 67% , 5%);
+    --bg-memory: hsl(39, 100%, 56%, 5%);
+    --bg-verbal: hsl(166, 100%, 37%, 5%);
+    --bg-visual: hsl(234, 85%,45%, 5%);
+    --bg-header-violet: hsl(252, 100%, 67%);
+    --bg-header-blue: hsl(241, 81%, 54%);
+    --bg-circle-top: hsla(241, 72%, 46%, 1);
+    --bg-circle-bottom: hsla(256, 72%, 46%, 1);
+    --color-white: hsl(0, 0%, 100%);
+    --bg-card: hsla(221, 100%, 95%);
+    --color-letter: hsl(241, 100%, 89%);
+    --bg-btn: hsl(224, 30%, 27%); 
+}
+
+/* reset en CSS */	
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: "Montserrat",sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    font-family: inherit;
+}
